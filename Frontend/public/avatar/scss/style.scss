@@ -1,0 +1,49 @@
+#container{
+    margin:auto;
+    width: 1000px;
+    height: 600px;
+}
+
+#background{
+    bottom: 1146px;
+    right: 1019px;
+}
+
+#body{
+    position: absolute;
+    width: 408px;
+    height: 544px;
+    background-image: url("../img/mouse.png");
+    background-position: center; 
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+#tops, #bottoms, #dresses, #accessoires, #shoes, #suitcase{
+    position: absolute;
+    width: 408px;
+    height: 544px; 
+    background-position: center; 
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+.top1{
+    background-image: url(../img/tops/top1.png);
+}
+
+.top2{
+    background-image: url(../img/tops/top2.png);
+}
+
+.bottom1{
+    background-image: url(../img/bottoms/bottom1.png);
+}
+
+.bottom2{
+    background-image: url(../img/bottoms/bottom2.png);
+}
+
+.suitcase{
+    background-image: url(../img/suitcase.png);
+}

@@ -1,0 +1,67 @@
+#container{
+    margin:auto;
+    width: 1000px;
+    height: 600px;
+}
+
+#background{
+    position: relative;
+}
+
+#body{
+    position: absolute;
+    background-image: url('../img/mouse.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#tops, #bottoms, #dresses, #accessoires, #shoes{
+    position: absolute;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.suitcase{
+    background-image: url(../img/suitcase.png);
+    position: absolute;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.suitcase_big{
+    width: 100px;
+    height: 160px;
+    background-size: 80px;
+    top: 23.5em;
+    right: 63em;
+}
+
+.suitcase_small{
+    width: 66px;
+    height: 105px;
+    top: 15em;
+    right: 66em;
+    background-size: 53px;
+}
+
+$items: ('accessoires': 6, 'tops': 6, 'bottoms': 6, 'dresses': 6, 'shoes': 6);
+
+@each $item, $total in $items {
+    @for $i from 1 through $total {
+        .#{$item}#{$i} {
+            background-image: url(../img/#{$item}/#{$item}#{$i}.png);
+        }
+    }
+}
+
+.big {
+    width: 340px;
+    height: 480px;
+    background-size: 500px;
+}
+
+.small {
+    width: 224px;
+    height: 317px;
+    background-size: 320px;
+}
