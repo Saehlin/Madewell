@@ -1,6 +1,6 @@
 # Madewell
 
-<img src="public/favicon.ico" align="right" alt="Madewell Logo" width="180" height="180">
+<img src="Frontend/public/favicon.ico" align="right" alt="Madewell Logo" width="180" height="180">
 
 Madewell's ecommerce website includes an avatar - Ava The Mouse - which displays information about the products and the company and can be dressed and thus personalized.
 
@@ -38,10 +38,10 @@ Madewell's ecommerce website includes an avatar - Ava The Mouse - which displays
 All you need to start the [website](https://madewell.herokuapp.com/) is a browser. Any modern browser, like Safari, Mozilla Firefox or Google Chrome, works.
 
 ## Screenshots
-<img src="public/screenshots/Account.png" alt="Account Page" width="450">&nbsp;
-<img src="public/screenshots/Avatar.png" alt="Avatar Page" width="450">&nbsp;
-<img src="public/screenshots/Product.png" alt="Product Page" width="450">&nbsp;
-<img src="public/screenshots/Shop.png" alt="Shop Page" width="450">
+<img src="Frontend/public/screenshots/Account.png" alt="Account Page" width="450">&nbsp;
+<img src="Frontend/public/screenshots/Avatar.png" alt="Avatar Page" width="450">&nbsp;
+<img src="Frontend/public/screenshots/Product.png" alt="Product Page" width="450">&nbsp;
+<img src="Frontend/public/screenshots/Shop.png" alt="Shop Page" width="450">
 
 
 ## Requirements
